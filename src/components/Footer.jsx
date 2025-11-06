@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-slate-200">
+    <footer id="contact" className="bg-white border-t border-slate-200">
       <div className="mx-auto max-w-6xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-slate-600 text-sm">© {new Date().getFullYear()} Pavan Teja. All rights reserved.</div>
         <div className="flex items-center gap-6 text-sm">
